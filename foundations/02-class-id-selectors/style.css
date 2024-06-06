@@ -1,0 +1,22 @@
+.red_ones
+{
+    background-color: rgb(232, 123, 228);
+    font-family: 'Veranda', 'DejaVu Sans', sans-serif;
+}
+
+#blue_one
+{
+    color: rgb(000, 000, 255);
+    font-size: 36px;
+}
+
+.cooler
+{
+    font-size: 24px;
+}
+
+#green_one
+{
+    background-color: rgb(80, 222, 85);
+    font-weight: bold;
+}
