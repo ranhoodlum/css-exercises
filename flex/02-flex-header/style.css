@@ -1,6 +1,10 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -14,6 +18,11 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  padding-inline-start: 0px;
+  margin: 0px; /* why this? idk, to make all elements align with the flex, maybe?
+                  shows no significant signs of change on browser, however */
+  display: flex;
+  gap: 8px;
 }
 
 a {
