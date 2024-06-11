@@ -7,10 +7,25 @@ img {
   height: 100px;
 }
 
+.all {
+  text-align: center;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  }
+  
+.items .item {
+  width: 200px;
+}
+    
 .title {
   font-size: 36px;
   font-weight: 900;
-}
+  margin-bottom: 32px;
+  }
 
 /* do not edit this footer */
 .footer {
