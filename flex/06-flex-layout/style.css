@@ -8,8 +8,9 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  /* padding: 16px; */
+  justify-content: space-between; /* this not necessary if you use flex: 1 in content body: see solution*/
+  /* padding: 16px; */            /* flex: 1 means that that element in particular will expand and 
+                                  contract like a flex element */
   /* align-items: center; */
 }
 
